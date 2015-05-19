@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>
+			HTML Form
+		</title> 
+
+	</head>
+	<body style="margin-right:25%; margin-left:25%;">
+		
+		<form style="background-color:lightgrey;" action="" method="">
+			<h1 style="text-align:center"><b> HTML form exercise </b></h1>
+			<h style=color:red>Please Note: </h>This example demonstrate how to make a form with the help of HTML. Where submit button and Reset button do their respective job. The form layout should be the same as below</p>
+
+			<table border="0" cellspacing="0" width="100%" float="left">
+				<tr><td width="5%"></td>
+					<td width="15%">Your Name*</td> 
+					<td width="80%"><select name="Gender" style="background-color:green;">
+	   												<option>Mr.
+														<option>Mrs.
+														<option>Miss. 
+													</select>
+	  				<input type="text/" name="Name" size="30" style="background-color:lightgreen;"></td></tr>
+
+	  		<tr><td width="5%"></td>
+	  			<td width="15%">Email Id*:</td> 
+	  			<td width="80%"><input type="text/" name="Email_Id" size="30" style="background-color:lightgreen;"></td></tr>
+
+  			<tr><td width="5%"></td>
+  				<td width="15%">Mobile No*:</td> 
+  				<td width="80%"><select name="Country_Code" style="background-color:green;">
+	   												<option>+91
+														<option>+92
+														<option>+93
+														<option>+97 
+													</select>
+							<input type="text" name="Mob_No" size="30" maxlength="10" style="background-color:lightgreen;"> </td></tr>
+
+				<tr><td width="5%"></td>
+					<td width="15%">Website*:</td> 
+					<td width="80%"><input type="text/" name="Website"  size="30" value="http://" style="background-color:lightgreen;"> </td>
+				</tr>
+  		</table><br/>
+
+			<table border="0" cellspacing="0" width="100%" float="left">
+				<tr><td width="5%"></td>
+					<td width="95%">Comments*:</td>
+				</tr>
+				<tr><td width="5%"></td></td>
+					<td width="95%"><textarea name="Comments" cols=30 rows=5 style="background-color:lightblue;"> </textarea> </td>
+				</tr>
+			</table><br/>
+
+			<table border="0" cellspacing="0" width="100%" float="left">
+				<tr><td width="5%"></td>
+					<td width="15%"><b>Text Field</b> </td>
+					<td></td>
+				</tr>
+				<tr><td width="5%"></td>
+					<td width="15%"> User Name: </td>
+					<td width="80"> <input type="text/" name="User_Name" size="20" style="background-color:lightgreen;"> </td>
+				</tr>
+		
+				<tr> <td width="5%"></td>
+					<td width="15%"> <b> Password</b> </td>
+					<td> </td>
+				</tr>
+				<tr><td width="5%"></td>
+					<td width="15%"> Password: </td>
+					<td width="80"> <input type="password" name="Password" size="20" style="background-color:lightgreen;"> </td>
+				</tr>
+			</table><br/>
+
+		<table border="0" cellspacing="0" width="100%" float="left">	
+			<tr><td width="5%"></td>
+				<td width="90%"><b>Radio Buttons</b></td>
+				<td></td>
+			</tr>
+			<tr><td width="5%"></td>
+				<td width="90%"><fieldset>
+													<legend>Do you like pizza?</legend>
+														<input type="radio" name="thebox" value="yes" checked> 
+    													<lebel for="yes">Yes</email>	<br/>
+														<input type="radio" name="thebox" id="no" checked> 
+    													<lebel for="no">No</email>	<br/>
+														<input type="radio" name="thebox" id="maybe" checked> 
+    													<lebel for="maybe">Maybe</email>	<br/>
+														<input type="radio" name="thebox" id="never" checked> 
+    													<lebel for="never">Never tried</email>	<br/>
+												</fieldset></td>
+				<td></td>
+			</tr>
+		</table><br/>
+
+		<table border="0" cellspacing="0" width="100%" float="left">
+			<tr><td width="5%"></td>
+				<td><b>Check Box</b></td>
+			</tr>
+			<tr><td width="5%"></td>
+				<td><input type="checkbox" name="Check_Box"> Check this box if you like our services.</td>
+			</tr>
+	
+			<tr><td width="5%"></td>
+				<td><b>Text Area</b></td>
+			</tr>
+			<tr><td width="5%"></td>
+				<td>Anything you would like to say? </td>
+			</tr>
+			<tr><td width="5%"></td>
+				<td><textarea name="Say" cols=30 rows=5 style="background-color:lightblue;"> </textarea></td>
+			</tr>
+	
+			<tr><td width="5%"></td>
+				<td><b>I like </b> </td>
+			</tr>
+			<tr><td width="5%"></td>
+				<td><select name="Like[]" multiple="multiple" size="3" style="background-color:yellow;">
+							<option> Playing PC Games
+							<option> Solving Sudoku
+							<option> Software Coading
+							<option> Eating Indian food
+							<option>Sleeping
+						</select> </td>
+			</tr>
+	
+			<tr><td width="5%"></td>
+				<td><b>Menu</b></td>
+			</tr>
+			<tr><td width="5%"></td>
+				<td>Your favourite color:</td>
+			</tr>
+			<tr><td width="5%"></td>
+				<td><select name="color">
+							<option value="Red">Red
+							<option value="Green">Green
+							<option value="Blue">Blue
+							<option value="Yellow">Yellow
+							<option value="Orange">Orange
+						</select></td>
+			</tr>
+	
+			<tr><td width="5%"></td>
+				<td><b>Attach File</b> </td>
+			</tr>
+			<tr><td width="5%"></td>
+				<td><input type="file" name="Attach File" size="30"> </td>
+			</tr>
+	
+			<tr><td width="5%"></td>
+				<td><b>Buttons</b></td>
+			</tr>
+			<tr><td width="5%"></td>
+				<td><input type="submit" value="Submit button">
+						<input type="reset" value="Reset Button"></td>
+			</tr>
+
+		</table>
+	</form>
+</body>
+</html>
